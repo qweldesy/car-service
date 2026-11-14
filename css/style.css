@@ -171,10 +171,10 @@ figure { margin: 0; }
   border-radius: 8px;
   background: var(--navy);
   color: #fff;
-  font-family: var(--font-display);
-  font-size: 14px;
+  font-family: var(--font-body);
+  font-size: 13px;
   font-weight: 800;
-  letter-spacing: .02em;
+  letter-spacing: -.03em;
 }
 .brand__mark::after {
   content: '';
@@ -515,22 +515,6 @@ figure { margin: 0; }
   font-size: 11px;
   font-weight: 600;
   letter-spacing: .04em;
-}
-
-.hero__vertical {
-  position: absolute;
-  right: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  writing-mode: vertical-rl;
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, .92);
-  padding: 9px 6px;
-  border-radius: 6px;
-  background: rgba(17, 26, 46, .35);
 }
 
 /* ---------- Факты ---------- */
@@ -1199,7 +1183,6 @@ body.menu-open .mobile-bar { opacity: 0; visibility: hidden; }
   .hero__title { font-size: clamp(50px, 10.6vw, 76px); }
   .hero__lead { max-width: 560px; }
   .hero__media { aspect-ratio: 4 / 3; border-radius: 18px; }
-  .hero__vertical { display: none; }
   .hero__proof { margin-top: 30px; }
 
   .facts { grid-template-columns: repeat(2, 1fr); }

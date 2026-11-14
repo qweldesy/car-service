@@ -1,0 +1,13 @@
+{
+  "name": "Car Service — автотехцентр в Тольятти",
+  "short_name": "Car Service",
+  "description": "Автосервис, шиномонтаж и студия тюнинга на Комсомольской, 84А",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f2",
+  "theme_color": "#f3f4f2",
+  "icons": [
+    { "src": "img/favicon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "img/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
